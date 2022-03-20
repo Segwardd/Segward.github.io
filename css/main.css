@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buy a {
+  margin-top: 100px;
+  cursor: pointer;
+  padding: 12px 32px;
+  background-color: purple;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  animation: anim 1.5s alternate-reverse infinite;
+}
+
+@-webkit-keyframes anim {
+  from {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes anim {
+  from {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=main.css.map */
